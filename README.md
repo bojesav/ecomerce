@@ -1,7 +1,7 @@
 # ecomerce-Laravel-11
  Example Ecomerce using laravel
 #run
-'''bash
+'''html
 php artisan serve
-'''bash
+'''html
 npm run dev
