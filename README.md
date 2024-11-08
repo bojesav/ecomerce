@@ -11,7 +11,10 @@ Ecomerce using laravel
 composer install --ignore-platform-reqs
 
 ```
+```
 php artisan key:generate
+
+```
 
 ```
 cp .env.example .env
@@ -19,6 +22,7 @@ cp .env.example .env
 ```
 
 ```
+php artisan migrate
 php artisan config:clear
 php artisan cache:clear
 
